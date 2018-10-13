@@ -37,10 +37,21 @@ The basic variable or data types are:
 - `string` eg: `"one"`
 - `boolean` eg: `True`
 
-You can 
+You can change variables except constant variables by assigning them to new values. 
 
+```py
+temperature = 97
+temperature = 95
+```
+If we get the value from `temperature` here, we end up with `95` because that is the last time temperature was assigned a value.
 
+or
 
+```py
+my_name = "Kevin"
+my_name = my_name + " Bacon"
+```
+Here, `my_name` started with `"Kevin"` and we told it to add `" Bacon"`, so the `my_name` variable ends up with the value `"Kevin Bacon"`.
 
 - Variables
 
