@@ -3,6 +3,19 @@ Python Fundamentals
 
 This guide is meant to be a concise but complete guide to your first python program. If you feel you can improve this guide, pull requests are welcome!
 
+## Getting Started 
+
+I highly recommend installing `ipython` and running these examples one by one, and experimenting with the language. ipython, or interactive python, is a pretty terminal that extends the IDLE interpretter, and allows you to tab complete and other nice features. Since python is scripted, you can write it and run it as you go! To install ipython, you can open a terminal or command prompt and run:
+```
+pip install ipython
+```
+
+If you get errors because you do not have pip installed, you might try:
+```
+easy_install pip
+pip install ipython
+```
+
 ## Variables
 
 Variables are similar to math. They are usually words describing their value, like `tire_pressure`, `temperature`, or `name`. They are assigned values with the `=` operator:
@@ -17,6 +30,14 @@ const freezing_point = 32
 ```
 
 In the example above, we are creating a constant variable, but we're assigning our variable, `freezing_point` an integer, or `int` value. This makes `freezing_point` both an `int`, and a `const`.
+
+The basic variable or data types are:
+- `int` eg: `1`
+- `float` eg: `1.0`
+- `string` eg: `"one"`
+- `boolean` eg: `True`
+
+You can 
 
 
 
