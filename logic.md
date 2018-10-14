@@ -2,12 +2,12 @@
 
 ## Operators
 
-A quick word on operators, operators are the varios math operators we borrow from math. Some examples include:
+A quick word on operators, operators are the various math operators we borrow from math. Some examples include:
 - `+` - addition
 - `-` - subtraction
 - `*` - multiplication
 - `/` - division
-- `%` - modulus (returns remander) eg: 2%3 is 2
+- `%` - modulus (returns remander) eg: 4%3 is 1
 - `**` - exponent (power) eg: 2 ** 3 is 8 
 
 There are also operators that compare the values on either side of them. These are called comparision operators, and here are the common ones:
@@ -26,8 +26,9 @@ These are:
   - else conditions
   - else if conditions
 - for loops
+- while loops
 
-If statements allow you to ask a question about data. Let's consider comparing the cost of two fruits. In the grocery store if we're holding a bunch of bananas and a bag of apples, we might think that `if` bananas are cheaper, we'll buy those. We know that if that's not true, that apples are cheaper, so we really only need ask `if` the bananas are cheaper. Let's do this in python:
+If statements allow you to ask a question about data. Let's consider comparing the cost of two fruits. In the grocery store if we're holding a bunch of bananas and a bag of apples, we might think that `if` bananas are cheaper, we'll buy those. We know that if that's not true, then apples are cheaper, so we really only need ask `if` the bananas are cheaper. Let's do this in python:
 
 ```
 In [1]: apple_price = 3.09
@@ -153,4 +154,3 @@ Fantastic, now the customer can enter what they are looking for and have a compu
 
  1.1 - Can you create a list of grocery item prices, then loop through your list and total all of the prices to get the cart total?
 
- 

@@ -96,6 +96,14 @@ In [5]: print(king_of_the_hill.capitalize())
 Out[5]: 'Hank hill'
 ```
 
+It is common to need to know the length of a string. There is a function in python called `len` that is given an argument, that returns something's length. For strings, this looks like the following:
+```py
+print(len(king_of_the_hill))
+9
+```
+
+The string "hank hill" has 8 characters and a space character, for a total of 9 characters.
+
 ---
 ## Lists
 
@@ -126,6 +134,9 @@ Out[5]: [9]
 
 In [6]: numbers[8:]
 Out[6]: [8, 9]
+
+In [7]: len(numbers)
+Out[7]: 10
 ```
 
 Notice that we can ask for a range of numbers in a few different ways. First, we can set a start and and end point, separated by a `:` in order to ask for a specific range:
@@ -192,17 +203,17 @@ One more thing to touch on are boolean values. Booleans, or `bool` as you may se
 
 Here is an example:
 ```py
-In [17]: sky_is_blue = True
+In [17]: power_on = True
 
-In [18]: up_is_down = False
+In [18]: power_off = False
 
-In [19]: sky_is_blue == up_is_down
+In [19]: power_on == power_off
 Out[19]: False
 ```
 
 The first two examples are pretty straight forward, but what is `==` you might ask? `==` is an operator that evaluates if both sides of it are equal to each other.
 
-In this case, we wrote an expression that essentially asks, is `sky_is_blue` equal to `up_is_down`. Since they have different values, it is false that `sky_is_blue` is equal to `up_is_down`, so the expression evaluates to `False`.
+In this case, we wrote an expression that essentially asks, is `power_on` equal to `power_off`. Since they have different values, it is false that `power_on` is equal to `power_off`, so the expression evaluates to `False`.
 
 # Challenge
 
@@ -210,6 +221,6 @@ In this case, we wrote an expression that essentially asks, is `sky_is_blue` equ
 
 1.1 - Capitalize your name and assign that to a different variable.
 
-1.2 - Instead of getting your initials from the first letter of each of your names, try making a cryptic set of initials using the last letter of each name. 
+1.2 - Instead of getting your initials from the first letter of each of your names, try making a cryptic set of initials using the last letter of each name. *hint* `len` can help you
 
 1.3 - Is your first and last name the same? Create a boolean expression that tells you if you have the same name twice.
